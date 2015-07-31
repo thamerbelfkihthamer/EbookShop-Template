@@ -1,0 +1,374 @@
+*{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #fbfdfd; 
+	 
+    height:100%;
+   width:100%;
+}
+
+html
+{
+overflow-x:hidden;
+}
+
+
+/* start header design*/
+
+.entrer{
+
+	background-color: #ff6769;
+	height: 30px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	/* position: fixed; */
+
+}
+
+
+.logo img{
+
+ height: 150px;
+ width: 200px;
+ margin-left: 50px;
+ margin-top: -25px;
+
+}
+.reseau_sociaux  {
+
+ height: 40px;
+ width: 160px;
+ margin-top: -90px;
+ float: right;
+
+}
+.reseau_sociaux img{
+	height: 50px;
+	width: 50px;
+	margin-top: -4px;
+	
+
+
+}
+.separatora{
+	height: 0.5px;
+	width: 100%;
+	background-color: #1dba9b;
+	margin-top:-20px; 
+	
+}
+.separatorb{
+    height: 1px;
+	width: 100%;
+	background-color: #1dba9b;
+    margin-top: -19.5px;	
+        
+
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 22px;
+    font-family: monospace;
+    position: fixed;
+    float: left;
+    
+
+
+}
+nav ul li:hover{
+background-color: #1dba9b;
+}
+
+
+#butonsearch{
+    position: absolute;
+    display: block;
+	width: 40px;
+	height: 42px;
+	margin-top: 3.5px;
+	margin-left: 450px;
+	background: #1dba9b;
+	border:0;
+	float: right;
+}
+#butonsearch:hover{
+	border-left:1px solid #1dba9b;
+	border-top: 1px solid #1dba9b;
+	border-bottom: 1px solid #1dba9b;
+
+}
+
+
+#inputrecherchee{
+	border: 0;
+	position: absolute;
+	height: 40px;
+	width: 200px;
+	background-color: #fbfdfd;
+	margin-left: 250px;
+	font-size: 22px;
+	color: #fbfdfd;
+    font-family: 'MuseoSans_Thin';
+	margin-top: 5px;
+	padding-left: 30px;
+	-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+	
+
+}
+
+#inputrecherchee:hover{
+	border:1px solid #1dba9b;
+}
+
+.lastearticle{
+
+	height: 100px;
+	max-width: 100%;
+	background-color: #23cde7;
+	margin-top: -20px;
+}
+
+/* start section content design*/
+
+
+.back{
+background-image: url(../img/livre.jpg);
+height: 200%;
+width: 100%;
+background-position: center;
+float: left;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+
+
+
+#livreplusacheter{
+    
+	height: 100px;
+	width: 100%;
+	background-color: #1dba9b;
+	margin-top: 53%;
+	
+   text-transform: lowercase;
+
+}
+#articleplusacheter{
+	float: left;
+	
+}
+
+#livreplusacheter h1{
+	font-size: 30px;
+	color: #fbfdfd;
+	font-family: monospace;
+	text-align: center;
+	padding-top: 20px;
+	margin-left: 100px;
+
+}
+.lastearticle h1{
+
+    font-size:30px;
+	color: #fbfdfd;
+	font-family: monospace;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+.article{
+	padding-left: 100px;
+	padding-top: 20px;
+}
+article{
+	height: auto;
+	width: 200px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border :1px solid #23cde7;
+	background-color:  #1dba9b;
+}
+article h3{
+	font-family: cursive;
+	font-size: 30px;
+	margin-left: 50px;
+	margin-top: 3px;
+}
+article img{
+	height: 200px;
+	width: 200px;
+    cursor: pointer;
+}
+article p{
+	font-family: cursive;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: -3px;
+}
+article input{
+	cursor: pointer;
+	height: auto;
+	width: 200px;
+	margin-top: 1px;
+	background-image: url(../img/Downloads.png);
+	border: 0px;
+}
+/* footer */
+
+#footer1{
+
+	height: 200px;
+	width: 116.8%;
+	padding: 0px;
+	margin-left:-100px;
+	background-color: #fe8e8f;
+	
+}
+
+#footer2{
+
+	height: 50px;
+	width: 117.3%;
+	padding: 0px;
+	margin-left: -9%;
+	background-color: #f4484a; 
+}
+#footer2 p{
+padding-top: 10px;
+}
+#service{
+	height: 100px;
+	width: 200px;
+	margin-top: -20px;
+	margin-left: 200px;
+}
+#service h3,#aide h3,#suivernous h3{
+font-size: 20px;
+font-family: cursive;
+}
+#aide{
+	height: 100px;
+	width: 200px;
+	margin-left: 600px;
+	margin-top: -120px;
+}
+#suivernous{
+    height: 100px;
+	width: 200px;
+	margin-left: 1000px;
+	margin-top: -120px;
+
+}
+#suivernous img{
+	height: 40px;
+	width: 40px;
+}
+
+#footer2 p{
+font-size:20px;
+	color: #fbfdfd;
+	font-family: monospace;
+	text-align: center;
+	
+}
+
+#contact{
+	height: 400px;
+	width: 100%;
+	background-image: url(../img/livre.jpg);
+	background-repeat: no-repeat;
+}
+#contact input{
+	border: none;
+	float: left;
+	display: block;
+	height: 50px;
+	width: 90%;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: #23cde7;
+	font-family: cursive;
+	color: #fbfdfd;
+	font-size: 20px;
+	padding: 0px;
+}
+#contact input[name="nom"]{
+	margin-top: 10px;
+}
+
+#txt{
+	margin-left: 100px;
+	border: none;
+	height: 140px;
+	width: 90%;
+	background-color: #23cde7;
+
+	font-family: cursive;
+	color: #fbfdfd;
+	font-size: 20px;
+	padding: 0px;
+}
+
+#livrechoisi{
+	height: 600px;
+	width: 80%;
+	margin-left: 150px;
+	margin-right: 200px;
+	margin-top: 50px;
+	background-color: rgba(160,226,238,0.5);
+	border: 1px solid rgba(160,226,238,0.5) ;
+}
+#livrechoisi img{
+	height: 460px;
+	width: 400px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding-right: 30px;
+	cursor: pointer;
+}
+
+#description h3{
+	font-size: 25px;
+	font-family: Roboto Black;
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-left: 37%;
+	margin-right: 10px;
+	border:1px solid #fbfdfc;
+	padding: 10px;
+}
+#description p{
+
+	font-size: 15px;
+	font-family:Roboto Black;
+	margin-left: 37%;
+	padding-left: 20px;
+	border:1px solid #fbfdfc;
+	height: 320px;
+	margin-right: 10px;
+	padding: 20px;
+}
+#livrechoisi input{
+	height: 80px;
+	width: 75%;
+	margin-top: 5px;
+	margin-left: 200px;
+	background-color:#03aeda;
+	border:none;
+}
